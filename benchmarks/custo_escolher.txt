@@ -1,0 +1,22 @@
+Aleatório com chaves grandes (o caso em que o escolher decide 'base').
+Tempos em ms; 'olhar' = escolher completo.
+
+       n   min+max  amostras     olhar   ordenar  olhar/ordenar
+     100    0.0019    0.0076    0.0107      0.06         17.3%
+    1000    0.0204    0.0256    0.0482      0.47         10.3%
+   10000    0.2474    0.0329    0.3606      3.48         10.4%
+  100000    2.6399    0.0286    2.8257     40.63          7.0%
+  400000    9.7081    0.0237    9.6527    186.94          5.2%
+
+Faixa estreita (o caso em que o olhar pesa mais: a contagem é rápida).
+       n     olhar   ordenar  olhar/ordenar
+    1000    0.0349      0.19         18.2%
+   10000    0.2505      0.80         31.1%
+  100000    2.5781      6.87         37.5%
+  400000    9.6560     28.74         33.6%
+
+Memória do vetor de contagem (CPython, 8 bytes por posição):
+  k=  100,000:      0.8 MB
+  k=1,000,000:      8.0 MB
+  k=4,000,000:     32.0 MB
+  k=4,3e9 (faixa de 32 bits com sinal): ~34 000 MB -> inviável
