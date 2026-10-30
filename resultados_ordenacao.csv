@@ -1,0 +1,33 @@
+﻿cenario,tamanho,metodo,tempo_mediano_ms,status
+Aleatório com chaves grandes,3000,insercao,149.16236599992772,OK
+Aleatório com chaves grandes,3000,intercalacao,3.5179279998374113,OK
+Aleatório com chaves grandes,3000,rapida,4.150825000124314,OK
+Aleatório com chaves grandes,3000,hibrida,3.679199000089284,OK
+Aleatório com chaves grandes,3000,contagem,,Recusado: faixa grande
+Aleatório com chaves grandes,3000,base,1.2419739996403223,OK
+Aleatório com chaves grandes,3000,ordenar,1.2895330000901595,OK
+Aleatório com chaves grandes,3000,escolher (isolado),0.12778099971910706,OK
+Faixa estreita (-500 a 500),3000,insercao,136.82708800024557,OK
+Faixa estreita (-500 a 500),3000,intercalacao,3.9749119996486115,OK
+Faixa estreita (-500 a 500),3000,rapida,2.977930999804812,OK
+Faixa estreita (-500 a 500),3000,hibrida,3.0824030000076164,OK
+Faixa estreita (-500 a 500),3000,contagem,0.38125399987620767,OK
+Faixa estreita (-500 a 500),3000,base,0.7946380001158104,OK
+Faixa estreita (-500 a 500),3000,ordenar,0.348984000083874,OK
+Faixa estreita (-500 a 500),3000,escolher (isolado),0.0708809998286597,OK
+Quase ordenado (1% de trocas),3000,insercao,3.4151979998569004,OK
+Quase ordenado (1% de trocas),3000,intercalacao,1.9575110000005225,OK
+Quase ordenado (1% de trocas),3000,rapida,3.9853119997133035,OK
+Quase ordenado (1% de trocas),3000,hibrida,3.601618000175222,OK
+Quase ordenado (1% de trocas),3000,contagem,,Recusado: faixa grande
+Quase ordenado (1% de trocas),3000,base,1.2124939999011985,OK
+Quase ordenado (1% de trocas),3000,ordenar,1.233042999956524,OK
+Quase ordenado (1% de trocas),3000,escolher (isolado),0.07504099994548596,OK
+Lista minúscula (16 elementos),16,insercao,0.006360000043059699,OK
+Lista minúscula (16 elementos),16,intercalacao,0.009279999630962266,OK
+Lista minúscula (16 elementos),16,rapida,0.009449999652133556,OK
+Lista minúscula (16 elementos),16,hibrida,0.004239999725541566,OK
+Lista minúscula (16 elementos),16,contagem,49.79507000007288,OK
+Lista minúscula (16 elementos),16,base,0.05615999998553889,OK
+Lista minúscula (16 elementos),16,ordenar,0.003949999609176302,OK
+Lista minúscula (16 elementos),16,escolher (isolado),0.00019999970390927047,OK
