@@ -1,0 +1,3 @@
+# Opcional: só o gráfico (relatorio.png) precisa de matplotlib.
+
+matplotlib>=3.5
